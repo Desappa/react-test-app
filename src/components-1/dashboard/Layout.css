@@ -1,0 +1,129 @@
+.card {
+    border: 0px solid #ededed !important;
+    box-shadow: none !important;
+}
+
+.btn-sm {
+    padding: 0.15rem 0.9rem;
+    font-size: .775rem;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #009efb;
+    border: 1px solid #009efb;
+    color: #fff;
+}
+
+.table.custom-table>tbody>tr>td,
+.table.custom-table>tbody>tr>th,
+.table.custom-table>tfoot>tr>td,
+.table.custom-table>tfoot>tr>th,
+.table.custom-table>thead>tr>td,
+.table.custom-table>thead>tr>th {
+    padding: 10px 10px !important;
+    font-size: 14px;
+}
+
+.sidebar {
+    overflow: scroll;
+}
+
+.sidebar-menu>ul>li>a.active {
+    color: #20aee3
+}
+
+.sidebar-inner.slimscroll {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slimScrollDiv {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.mini-sidebar .header-left .logo img.small {
+    display: block;
+    margin-top: 15px !important;
+    max-height: 100% !important;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+#example_filter {
+    float: right;
+}
+
+#example_paginate {
+    float: right;
+}
+
+.btn-danger {
+    margin-left: 5px;
+}
+
+.form-focus .focus-label {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.4;
+    pointer-events: none;
+    position: absolute;
+    -webkit-transform: translate3d(0, 22px, 0) scale(1);
+    -ms-transform: translate3d(0, 22px, 0) scale(1);
+    -o-transform: translate3d(0, 22px, 0) scale(1);
+    transform: translate3d(0, 22px, 0) scale(1);
+    transform-origin: left top;
+    transition: 240ms;
+    left: 12px;
+    top: -20px;
+    z-index: 1;
+    color: #888;
+    margin-bottom: 0;
+}
+
+.row-cards {
+    margin-bottom: 10px;
+}
+
+.quick-stats {
+    position: absolute;
+    top: 5px;
+}
+
+.btn-buttons,
+.btn-buttons:hover,
+.btn-buttons:active {
+    background: #a410bfbd;
+    border: 1px solid #a410bfbd;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.circle-div {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-btn .circle-container {
+    background: #a410bfbd !important;
+    top: -3px;
+}
+
+.form-control {
+    color: #67757c;
+    background-color: #ffffff;
+    border-color: #dddfe3;
+}
