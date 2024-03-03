@@ -1,12 +1,12 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
-import Login from './components-1/Login';
+// import Login from './components-1/Login';
 import Layout from './components-1/dashboard/Layout';
 import Home from './components-1/dashboard/Home';
 import Leads from './components-1/dashboard/pages/Leads';
 import Orders from './components-1/dashboard/pages/Orders';
-import Customer from './components-1/dashboard/pages/Customer';
+// import Customer from './components-1/dashboard/pages/Customer';
 import AccountHead from './components-1/dashboard/pages/AccountHead';
 
 function App() {

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://desappa.github.io/react-test-app/",
   "name": "login-into-dashboard",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +11,7 @@
     "bootstrap-icons": "^1.10.5",
     "cdbreact": "^1.5.18",
     "gapi-script": "^1.2.0",
+    "gh-pages": "^6.1.1",
     "google-map-react": "^2.2.1",
     "jquery": "^3.7.0",
     "react": "^18.2.0",
@@ -34,6 +36,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

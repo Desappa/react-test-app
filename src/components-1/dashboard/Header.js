@@ -19,25 +19,25 @@ function Header() {
                 {/* Logo */}
                 <div className="header-left">
                     <Link to="/" className="logo">
-                        <img src={logo} className="large" width={85} height={65} alt />
-                        <img src={logoSmall} className="small" alt />
+                        <img src={logo} className="large" width={85} height={65} alt='logo' />
+                        <img src={logoSmall} className="small" alt='logosmall' />
                     </Link>
                 </div>
                 {/* /Logo */}
                 {/* <a id="toggle_btn" href="javascript:void(0);"> */}
-                <a onClick={miniSidebar} id='toggle_btn'>
+                <Link to='#' onClick={miniSidebar} id='toggle_btn'>
                     <span className="bar-icon">
                         <span />
                         <span />
                         <span />
                     </span>
-                </a>
+                </Link>
                 {/* Header Title */}
                 {/*            <div class="page-title-box">*/}
                 {/*	<h3>Techades </h3>*/}
                 {/*            </div>*/}
                 {/* /Header Title */}
-                <a id="mobile_btn" className="mobile_btn" href="#sidebar"><i className="fa fa-bars" /></a>
+                <Link id="mobile_btn" className="mobile_btn" to="#sidebar"><i className="fa fa-bars" /></Link>
                 {/* Header Menu */}
                 <ul className="nav user-menu">
                     {/* Search */}
@@ -45,9 +45,9 @@ function Header() {
                     {/* Flag */}
                     {/* /Flag */}
                     <li className="nav-item dropdown">
-                        <a href="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
+                        <Link to="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
                             <i className="ti-alarm-clock" />
-                        </a>
+                        </Link>
                         <div className="dropdown-menu notifications">
                             <div className="topnav-dropdown-header">
                                 <span className="notification-title">Remainder-Due</span>
@@ -240,15 +240,15 @@ function Header() {
                     {/* Message Notifications */}
                     {/* /Message Notifications */}
                     <li className="nav-item dropdown has-arrow main-drop">
-                        <a href="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
+                        <Link to="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
                             <span className="user-img">
                                 {/* <img src="%PUBLIC_URL%/assets/img/profiles/avatar-21.jpg" alt /> */}
                                 <span className="status online" /></span>
                             <span>Phogo App</span>
-                        </a>
+                        </Link>
                         <div className="dropdown-menu">
-                            <a className="dropdown-item" href="profile.php">My Profile</a>
-                            <a className="dropdown-item" href="settings.php">Settings</a>
+                            <Link className="dropdown-item" to="/">My Profile</Link>
+                            <Link className="dropdown-item" to="/">Settings</Link>
                             {/* <a className="dropdown-item" href="javascript:void();" onclick="logout();">Logout</a> */}
                         </div>
                     </li>
@@ -256,11 +256,11 @@ function Header() {
                 {/* /Header Menu */}
                 {/* Mobile Menu */}
                 <div className="dropdown mobile-user-menu">
-                    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i className="fa fa-ellipsis-v" /></a>
+                    <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i className="fa fa-ellipsis-v" /></Link>
                     <div className="dropdown-menu dropdown-menu-right">
-                        <a className="dropdown-item" href="profile.php">My Profile</a>
-                        <a className="dropdown-item" href="settings.php">Settings</a>
-                        <a className="dropdown-item" href="index.php">Logout</a>
+                        <Link className="dropdown-item" to="/">My Profile</Link>
+                        <Link className="dropdown-item" to="/">Settings</Link>
+                        <Link className="dropdown-item" to="/">Logout</Link>
                     </div>
                 </div>
                 {/* /Mobile Menu */}

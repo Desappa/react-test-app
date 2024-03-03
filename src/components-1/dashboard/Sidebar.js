@@ -63,7 +63,7 @@ function Sidebar() {
                                 <li>
                                     <Link to="account-head" title="Estimates"><i className="la la-money" /> <span>Account Head</span></Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="payments.php" title="Payments"><i className="la la-wallet" /> <span>Payments</span></a>
                                 </li>
                                 <li>
@@ -71,7 +71,7 @@ function Sidebar() {
                                 </li>
                                 <li>
                                     <a href="all_transactions.php" title="All Transactions"><i className="la la-money-check-alt" /> <span>All Transactions</span></a>
-                                </li>
+                                </li> */}
                                 {/*
 							<li> 
 								<a href="invoices.php"><i class="la la-columns"></i> <span>Invoices</span></a>
@@ -80,7 +80,7 @@ function Sidebar() {
                                 <li className="menu-title mt-3">
                                     <span>Project Management</span>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="orders.php" title="Orders"><i className="la la-file-invoice-dollar" /> <span>Orders</span></a>
                                 </li>
                                 <li>
@@ -169,7 +169,7 @@ function Sidebar() {
                                 </li>
                                 <li>
                                     <a href="terms.php" title="Terms"><i className="la la-info" /> <span>Terms</span></a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
